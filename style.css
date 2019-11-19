@@ -9,3 +9,53 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: osixthreeo-child
 Template: osixthreeo
 */
+body {
+	background:
+	linear-gradient(45deg, #ffffff 45px, transparent 45px)64px 64px,
+	linear-gradient(45deg, #ffffff 45px, transparent 45px,transparent 91px, #f2f2f2 91px, #f2f2f2 135px, transparent 135px),
+	linear-gradient(-45deg, #ffffff 23px, transparent 23px, transparent 68px,#ffffff 68px,#ffffff 113px,transparent 113px,transparent 158px,#f2f2f2 158px);
+	background-color:#f2f2f2;
+	background-size: 128px 128px;
+}
+
+/* Menu - Alternate Menu Style */
+.site-navigation li {
+	margin: 0;
+}
+.site-navigation a {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.site-navigation .menu-item-has-children > a {
+	padding-right: 2em;
+}
+.site-navigation a:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.site-navigation a:before {
+	border-bottom-color: transparent;
+}
+.site-navigation ul:not(.sub-menu) > a:hover,
+.site-navigation ul:not(.sub-menu) > .current_page_ancestor > a,
+.site-navigation ul:not(.sub-menu) > .current-menu-ancestor > a,
+.site-navigation ul:not(.sub-menu) > .current_page_item > a,
+.site-navigation ul:not(.sub-menu) > .current-menu-item > a {
+	border-bottom-color: transparent;
+}
+.site-navigation button.dropdown-toggle {
+	   right: 1em;
+}
+
+
+
+.custom-header {
+	margin-bottom: 1.5em;
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.site-header,
+.home .site-header {
+    min-height: unset;
+	background-color: #222;
+}
