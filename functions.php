@@ -24,7 +24,7 @@ if ( ! function_exists( 'osixthreeo_child_enqueue_styles' ) ) {
 	function osixthreeo_child_enqueue_styles() {
 
 		// Enqueue Parent theme's stylesheet.
-		wp_enqueue_style( 'osixthreeo-parent-style', get_template_directory_uri() . '/style.css' );
+		wp_enqueue_style( 'osixthreeo-parent-style', get_template_directory_uri() . '/style.css', array(), OSIXTHREEO_VERSION );
 
 		// Enqueue Child theme's stylesheet.
 		// Setting 'parent-style' as a dependency will ensure that the child theme stylesheet loads after it.
