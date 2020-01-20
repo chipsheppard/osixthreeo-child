@@ -26,4 +26,4 @@ OsixthreeO is a great selection for any website. Create your own unique design w
 == ChangeLog ==
 
 = 1.0.0 - 01 20 2020 =
-* _s downloaded and renamed to "osixthreeo"
+* created out of thin air
