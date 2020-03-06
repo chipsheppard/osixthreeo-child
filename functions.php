@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Define Constants
  */
-define( 'OSIXTHREEO_CHILD_VERSION', '1.0.0' );
+define( 'OSIXTHREEO_CHILD_VERSION', '1.0.1' );
 
 if ( ! function_exists( 'osixthreeo_child_enqueue_styles' ) ) {
 	/**
