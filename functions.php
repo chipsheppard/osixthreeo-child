@@ -28,7 +28,7 @@ if ( ! function_exists( 'osixthreeo_child_enqueue_styles' ) ) {
 
 	}
 }
-add_action( 'wp_enqueue_scripts', 'osixthreeo_child_enqueue_styles', 15 );
+add_action( 'wp_enqueue_scripts', 'osixthreeo_child_enqueue_styles' );
 
 /*
  * -----------------------------------------------------------------
